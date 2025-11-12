@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nianci</title>
-    <link>https://nianci-prog.github.io/</link>
-    <description>Recent content on Nianci</description>
+    <title>Saylor Academy on Nianci</title>
+    <link>https://nianci-prog.github.io/tags/saylor-academy/</link>
+    <description>Recent content in Saylor Academy on Nianci</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nianci-prog.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Learning Java through HackerRank</title>
-      <link>https://nianci-prog.github.io/post/learning-java-hackerrank/</link>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/post/learning-java-hackerrank/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;I practiced Java on &lt;strong&gt;HackerRank&lt;/strong&gt;, completing exercises that helped me strengthen my understanding of programming fundamentals, object-oriented concepts, and data manipulation techniques.&lt;/p&gt;&#xA;&lt;p&gt;Through these exercises, I became more confident in Java syntax and problem-solving, preparing for more advanced projects and algorithms.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;hackerrank-overview&#34;&gt;HackerRank Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;HackerRank&lt;/strong&gt; is an online platform for coding practice and competitions.&lt;br&gt;&#xA;It supports multiple programming languages — including &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Python&lt;/strong&gt;, &lt;strong&gt;C++&lt;/strong&gt;, and more — and covers various domains such as &lt;strong&gt;algorithms&lt;/strong&gt;, &lt;strong&gt;data structures&lt;/strong&gt;, &lt;strong&gt;databases&lt;/strong&gt;, and &lt;strong&gt;AI&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nianci-prog.github.io/tags/saylor-academy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java OOP Notes from Saylor Academy</title>
       <link>https://nianci-prog.github.io/post/java-oop-notes-saylor/</link>

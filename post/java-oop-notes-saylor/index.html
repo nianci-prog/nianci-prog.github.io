@@ -1,0 +1,542 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#fbfbfb"
+  lang="en"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Java OOP Notes from Saylor Academy - Nianci</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Saylor Academy Overview
+Saylor Academy, founded by Michael J. Saylor in 2008, is a nonprofit online education platform headquartered in Washington, D.C., USA. It offers free, self-paced online courses covering humanities, business, mathematics, and science. Students can earn digital certificates, and some courses provide ACE-accredited college credits. By 2025, Saylor Academy has served over 2.5 million students worldwide.
+
+Learning Reflections
+Studying Java object-oriented programming (OOP) helped me understand modularity and maintainability in programming. Through classes, objects, inheritance, encapsulation, abstraction, and polymorphism, I learned to design flexible, reusable program structures and map real-world concepts to code. Implementing examples like SUV, Student, and Calculator taught me how parent and child classes interact, how to override methods, and how to protect data, improving program organization and extensibility." />
+  <meta name="author" content="nianci" /><link rel="preload stylesheet" as="style" href="https://nianci-prog.github.io/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://nianci-prog.github.io/theme.svg" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/e5eb1920869daddbe9c7d927ea7b5af4?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="https://nianci-prog.github.io/github.svg" /><link rel="preload" as="image" href="https://nianci-prog.github.io/linkedin.svg" />
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script><script>
+  document.addEventListener('DOMContentLoaded', () =>
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+      ],
+      
+      throwOnError: false,
+    }),
+  );
+</script>
+
+
+  
+  <link
+    rel="icon"
+    href="https://nianci-prog.github.io/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://nianci-prog.github.io/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.152.2">
+  <meta itemprop="name" content="Java OOP Notes from Saylor Academy">
+  <meta itemprop="description" content="Saylor Academy Overview Saylor Academy, founded by Michael J. Saylor in 2008, is a nonprofit online education platform headquartered in Washington, D.C., USA. It offers free, self-paced online courses covering humanities, business, mathematics, and science. Students can earn digital certificates, and some courses provide ACE-accredited college credits. By 2025, Saylor Academy has served over 2.5 million students worldwide.
+Learning Reflections Studying Java object-oriented programming (OOP) helped me understand modularity and maintainability in programming. Through classes, objects, inheritance, encapsulation, abstraction, and polymorphism, I learned to design flexible, reusable program structures and map real-world concepts to code. Implementing examples like SUV, Student, and Calculator taught me how parent and child classes interact, how to override methods, and how to protect data, improving program organization and extensibility.">
+  <meta itemprop="datePublished" content="2025-09-14T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-09-14T00:00:00+00:00">
+  <meta itemprop="wordCount" content="482">
+  <meta itemprop="keywords" content="Saylor Academy,Java,OOP,Programming,Notes"><meta property="og:url" content="https://nianci-prog.github.io/post/java-oop-notes-saylor/">
+  <meta property="og:site_name" content="Nianci">
+  <meta property="og:title" content="Java OOP Notes from Saylor Academy">
+  <meta property="og:description" content="Saylor Academy Overview Saylor Academy, founded by Michael J. Saylor in 2008, is a nonprofit online education platform headquartered in Washington, D.C., USA. It offers free, self-paced online courses covering humanities, business, mathematics, and science. Students can earn digital certificates, and some courses provide ACE-accredited college credits. By 2025, Saylor Academy has served over 2.5 million students worldwide.
+Learning Reflections Studying Java object-oriented programming (OOP) helped me understand modularity and maintainability in programming. Through classes, objects, inheritance, encapsulation, abstraction, and polymorphism, I learned to design flexible, reusable program structures and map real-world concepts to code. Implementing examples like SUV, Student, and Calculator taught me how parent and child classes interact, how to override methods, and how to protect data, improving program organization and extensibility.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-09-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-14T00:00:00+00:00">
+    <meta property="article:tag" content="Saylor Academy">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="OOP">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="Notes">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Java OOP Notes from Saylor Academy">
+  <meta name="twitter:description" content="Saylor Academy Overview Saylor Academy, founded by Michael J. Saylor in 2008, is a nonprofit online education platform headquartered in Washington, D.C., USA. It offers free, self-paced online courses covering humanities, business, mathematics, and science. Students can earn digital certificates, and some courses provide ACE-accredited college credits. By 2025, Saylor Academy has served over 2.5 million students worldwide.
+Learning Reflections Studying Java object-oriented programming (OOP) helped me understand modularity and maintainability in programming. Through classes, objects, inheritance, encapsulation, abstraction, and polymorphism, I learned to design flexible, reusable program structures and map real-world concepts to code. Implementing examples like SUV, Student, and Calculator taught me how parent and child classes interact, how to override methods, and how to protect data, improving program organization and extensibility.">
+
+  <link rel="canonical" href="https://nianci-prog.github.io/post/java-oop-notes-saylor/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="https://nianci-prog.github.io/"
+      >Nianci</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#fbfbfb'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/nianci-prog"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/nianci-chu-24967938a"
+        target="_blank"
+        rel="me"
+      >linkedin</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">Java OOP Notes from Saylor Academy</h1><div class="text-xs antialiased opacity-60"><time>Sep 14, 2025</time></div></header>
+
+  <section><h2 id="saylor-academy-overview">Saylor Academy Overview</h2>
+<p>Saylor Academy, founded by Michael J. Saylor in 2008, is a nonprofit online education platform headquartered in Washington, D.C., USA. It offers free, self-paced online courses covering humanities, business, mathematics, and science. Students can earn digital certificates, and some courses provide ACE-accredited college credits. By 2025, Saylor Academy has served over 2.5 million students worldwide.</p>
+<hr>
+<h2 id="learning-reflections">Learning Reflections</h2>
+<p>Studying Java object-oriented programming (OOP) helped me understand modularity and maintainability in programming. Through classes, objects, inheritance, encapsulation, abstraction, and polymorphism, I learned to design flexible, reusable program structures and map real-world concepts to code. Implementing examples like <code>SUV</code>, <code>Student</code>, and <code>Calculator</code> taught me how parent and child classes interact, how to override methods, and how to protect data, improving program organization and extensibility.</p>
+<hr>
+<h2 id="java-oop-key-notes">Java OOP Key Notes</h2>
+<h3 id="oop-features">OOP Features</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Description</th>
+          <th>Java Support</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Abstraction</td>
+          <td>Focus on &ldquo;what&rdquo; not &ldquo;how&rdquo;</td>
+          <td>abstract class, interface</td>
+      </tr>
+      <tr>
+          <td>Encapsulation</td>
+          <td>Bundle data and methods</td>
+          <td>class, object</td>
+      </tr>
+      <tr>
+          <td>Information Hiding</td>
+          <td>Hide internal details, expose interface</td>
+          <td>private, public, getter/setter</td>
+      </tr>
+      <tr>
+          <td>Inheritance</td>
+          <td>Subclass inherits parent attributes/methods</td>
+          <td>extends, implements</td>
+      </tr>
+      <tr>
+          <td>Polymorphism</td>
+          <td>Same method, different implementations</td>
+          <td>method overriding, polymorphic calls</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="class-vs-object">Class vs Object</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Term</th>
+          <th>Associated With</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Abstraction</td>
+          <td>Class</td>
+      </tr>
+      <tr>
+          <td>Member</td>
+          <td>Class</td>
+      </tr>
+      <tr>
+          <td>Template</td>
+          <td>Class</td>
+      </tr>
+      <tr>
+          <td>Design</td>
+          <td>Class</td>
+      </tr>
+      <tr>
+          <td>Module</td>
+          <td>Class</td>
+      </tr>
+      <tr>
+          <td>Information Hiding</td>
+          <td>Class</td>
+      </tr>
+      <tr>
+          <td>State</td>
+          <td>Object</td>
+      </tr>
+      <tr>
+          <td>Message</td>
+          <td>Object</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="static-keywords">Static Keywords</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Statement</th>
+          <th>True / False</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Static data/method belongs to class</td>
+          <td>True</td>
+      </tr>
+      <tr>
+          <td>Static data/method belongs to object</td>
+          <td>False</td>
+      </tr>
+      <tr>
+          <td>Static class data shared by all objects</td>
+          <td>True</td>
+      </tr>
+      <tr>
+          <td>Static class data copied per object</td>
+          <td>False</td>
+      </tr>
+      <tr>
+          <td>Static methods can call only static members</td>
+          <td>True</td>
+      </tr>
+      <tr>
+          <td>Constructor can be static</td>
+          <td>False</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="abstract-class">Abstract Class</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Declaration</td>
+          <td>Use <code>abstract class</code></td>
+      </tr>
+      <tr>
+          <td>Can instantiate</td>
+          <td>No</td>
+      </tr>
+      <tr>
+          <td>Content</td>
+          <td>Can contain abstract (no implementation) and concrete methods (with implementation)</td>
+      </tr>
+      <tr>
+          <td>Purpose</td>
+          <td>Enforce subclass implementation; suitable for partial shared and partial customized logic</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="classobjectsubclass-data-changes">Class/Object/Subclass Data Changes</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Change Type</th>
+          <th>Effect</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Class data value changed</td>
+          <td>Affects all objects</td>
+      </tr>
+      <tr>
+          <td>Object data value changed</td>
+          <td>Only affects that object</td>
+      </tr>
+      <tr>
+          <td>Subclass data value changed</td>
+          <td>Only affects that subclass</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="examples">Examples</h2>
+<h3 id="1-vehicle--suv">1. Vehicle → SUV</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Class</th>
+          <th>Attributes / Methods</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Vehicle</td>
+          <td>Attributes: weight, color, numberOfWheels; Methods: setWeight, setColor, setNumberOfWheels, toString()</td>
+      </tr>
+      <tr>
+          <td>SUV (extends Vehicle)</td>
+          <td>New attributes: make, model, is4wd; Methods: setMake, setModel, setIs4wd, toString() (calls <code>super.toString()</code>)</td>
+      </tr>
+      <tr>
+          <td>Driver Test</td>
+          <td>Create <code>suv1</code>, set attributes, output full info</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="2-array1dproc">2. Array1dProc</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Method</th>
+          <th>Function</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>arraysum()</td>
+          <td>Return sum of array</td>
+      </tr>
+      <tr>
+          <td>arraymax()</td>
+          <td>Return max value</td>
+      </tr>
+      <tr>
+          <td>printelements()</td>
+          <td>Print all elements</td>
+      </tr>
+      <tr>
+          <td>main()</td>
+          <td>Read user input, create <code>Array1dProc</code>, output sum and max</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="3-basiccalculator--advcalculator">3. BasicCalculator → AdvCalculator</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Class</th>
+          <th>Attributes / Methods</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>BasicCalculator</td>
+          <td>Attributes: z, txt (private → use getter/setter); Methods: plus, minus, mult, divide</td>
+      </tr>
+      <tr>
+          <td>AdvCalculator (extends BasicCalculator)</td>
+          <td>Adds methods: power(x, y), nthroot(x, y)</td>
+      </tr>
+      <tr>
+          <td>TestCalc</td>
+          <td>Read input → test addition, subtraction, exponentiation, root</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="4-person--student">4. Person → Student</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Class</th>
+          <th>Attributes / Methods</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Person</td>
+          <td>Attributes: firstName, lastName, idNum, birthdate; Methods: setter, toString()</td>
+      </tr>
+      <tr>
+          <td>Student (extends Person)</td>
+          <td>Attributes: gpa, creditHours, level; Methods: setGPA, setCrHrs, setLevel, toString() (calls <code>super.toString()</code>)</td>
+      </tr>
+      <tr>
+          <td>Driver Test</td>
+          <td>Create <code>student1</code>, set attributes, output full info</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="5-property--house--building">5. Property → House / Building</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Class</th>
+          <th>Attributes / Methods</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Property</td>
+          <td>Common property attributes &amp; methods</td>
+      </tr>
+      <tr>
+          <td>House / Building</td>
+          <td>Subclasses adding specific attributes &amp; methods</td>
+      </tr>
+  </tbody>
+</table>
+</section>
+
+  <footer class="mt-12 flex flex-wrap"><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://nianci-prog.github.io/tags/saylor-academy"
+      >Saylor Academy</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://nianci-prog.github.io/tags/java"
+      >Java</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://nianci-prog.github.io/tags/oop"
+      >OOP</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://nianci-prog.github.io/tags/programming"
+      >Programming</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://nianci-prog.github.io/tags/notes"
+      >Notes</a
+    ></footer><nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="https://nianci-prog.github.io/post/learning-java-hackerrank/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Learning Java through HackerRank</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025
+    <a class="link" href="https://nianci-prog.github.io/">Nianci</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>
