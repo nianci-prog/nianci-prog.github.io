@@ -6,20 +6,55 @@
     <description>Recent content in Tags on Nianci</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nianci-prog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HackerRank</title>
-      <link>https://nianci-prog.github.io/tags/hackerrank/</link>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/hackerrank/</guid>
+      <title>Colab</title>
+      <link>https://nianci-prog.github.io/tags/colab/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/colab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSV</title>
+      <link>https://nianci-prog.github.io/tags/csv/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/csv/</guid>
       <description></description>
     </item>
     <item>
       <title>Index</title>
       <link>https://nianci-prog.github.io/tags/index/</link>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://nianci-prog.github.io/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>https://nianci-prog.github.io/tags/notes/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://nianci-prog.github.io/tags/python/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>https://nianci-prog.github.io/tags/sql/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HackerRank</title>
+      <link>https://nianci-prog.github.io/tags/hackerrank/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/hackerrank/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +76,6 @@
       <link>https://nianci-prog.github.io/tags/programming/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://nianci-prog.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Notes</title>
-      <link>https://nianci-prog.github.io/tags/notes/</link>
-      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/notes/</guid>
       <description></description>
     </item>
     <item>

@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes on Nianci</title>
-    <link>https://nianci-prog.github.io/tags/notes/</link>
-    <description>Recent content in Notes on Nianci</description>
+    <title>CSV on Nianci</title>
+    <link>https://nianci-prog.github.io/tags/csv/</link>
+    <description>Recent content in CSV on Nianci</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nianci-prog.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nianci-prog.github.io/tags/csv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python / Colab Example: Extract Quoted SQL Fields with Line Breaks</title>
       <link>https://nianci-prog.github.io/post/python-colab-example-extract-quoted-sql-fields/</link>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://nianci-prog.github.io/post/python-colab-example-extract-quoted-sql-fields/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This note demonstrates how to use &lt;strong&gt;Python in Google Colab&lt;/strong&gt; to extract text enclosed in double quotes from SQL &lt;code&gt;SELECT&lt;/code&gt; statements in a CSV file.&lt;br&gt;&#xA;The extracted values are placed in a new column with each value on a separate line, ready for Excel display.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-import-packages&#34;&gt;1. Import Packages&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pandas &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; pd&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; re&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; google.colab &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; files&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; csv  &lt;span style=&#34;color:#75715e&#34;&gt;# For CSV quoting&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-upload-csv&#34;&gt;2. Upload CSV&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uploaded &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; files&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;upload()  &lt;span style=&#34;color:#75715e&#34;&gt;# Upload your CSV file&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;file_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; list(uploaded&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;keys())[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]  &lt;span style=&#34;color:#75715e&#34;&gt;# Get uploaded file name&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note: The CSV must contain at least one column with SQL queries, e.g., query.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java OOP Notes from Saylor Academy</title>
-      <link>https://nianci-prog.github.io/post/java-oop-notes-saylor/</link>
-      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/post/java-oop-notes-saylor/</guid>
-      <description>&lt;h2 id=&#34;saylor-academy-overview&#34;&gt;Saylor Academy Overview&lt;/h2&gt;&#xA;&lt;p&gt;Saylor Academy, founded by Michael J. Saylor in 2008, is a nonprofit online education platform headquartered in Washington, D.C., USA. It offers free, self-paced online courses covering humanities, business, mathematics, and science. Students can earn digital certificates, and some courses provide ACE-accredited college credits. By 2025, Saylor Academy has served over 2.5 million students worldwide.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;learning-reflections&#34;&gt;Learning Reflections&lt;/h2&gt;&#xA;&lt;p&gt;Studying Java object-oriented programming (OOP) helped me understand modularity and maintainability in programming. Through classes, objects, inheritance, encapsulation, abstraction, and polymorphism, I learned to design flexible, reusable program structures and map real-world concepts to code. Implementing examples like &lt;code&gt;SUV&lt;/code&gt;, &lt;code&gt;Student&lt;/code&gt;, and &lt;code&gt;Calculator&lt;/code&gt; taught me how parent and child classes interact, how to override methods, and how to protect data, improving program organization and extensibility.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>EC-Council SQL Injection Learning Notes</title>
-      <link>https://nianci-prog.github.io/post/ec-council-sql-injection-notes/</link>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/post/ec-council-sql-injection-notes/</guid>
-      <description>&lt;h2 id=&#34;ec-council-overview&#34;&gt;EC-Council Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;EC-Council&lt;/strong&gt; (International Council of E-Commerce Consultants) is a globally recognized cybersecurity certification organization, offering professional certifications such as &lt;strong&gt;CEH (Certified Ethical Hacker)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This course deepened my understanding of web application security, SQL injection vulnerabilities, and practical penetration testing tools.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;learning-reflections&#34;&gt;Learning Reflections&lt;/h2&gt;&#xA;&lt;p&gt;This course helped me achieve my goal of gaining hands-on experience in cybersecurity.&lt;br&gt;&#xA;I practiced using tools like &lt;strong&gt;sqlmap&lt;/strong&gt; and &lt;strong&gt;jSQL&lt;/strong&gt;, which improved my confidence in identifying and testing vulnerabilities.&lt;br&gt;&#xA;The course structure, combined with practical examples, made it easier to apply knowledge in real-world scenarios.&lt;br&gt;&#xA;Overall, it brings me closer to becoming a cybersecurity professional.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
