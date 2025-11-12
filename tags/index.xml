@@ -6,62 +6,41 @@
     <description>Recent content in Tags on Nianci</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nianci-prog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Css</title>
-      <link>https://nianci-prog.github.io/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Html</title>
-      <link>https://nianci-prog.github.io/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/html/</guid>
+      <title>HackerRank</title>
+      <link>https://nianci-prog.github.io/tags/hackerrank/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/hackerrank/</guid>
       <description></description>
     </item>
     <item>
       <title>Index</title>
       <link>https://nianci-prog.github.io/tags/index/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://nianci-prog.github.io/tags/index/</guid>
       <description></description>
     </item>
     <item>
-      <title>Markdown</title>
-      <link>https://nianci-prog.github.io/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/markdown/</guid>
+      <title>Java</title>
+      <link>https://nianci-prog.github.io/tags/java/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/java/</guid>
       <description></description>
     </item>
     <item>
-      <title>Privacy</title>
-      <link>https://nianci-prog.github.io/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/privacy/</guid>
+      <title>Learning</title>
+      <link>https://nianci-prog.github.io/tags/learning/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>Shortcodes</title>
-      <link>https://nianci-prog.github.io/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Text</title>
-      <link>https://nianci-prog.github.io/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/text/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Emoji</title>
-      <link>https://nianci-prog.github.io/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nianci-prog.github.io/tags/emoji/</guid>
+      <title>Programming</title>
+      <link>https://nianci-prog.github.io/tags/programming/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/tags/programming/</guid>
       <description></description>
     </item>
   </channel>

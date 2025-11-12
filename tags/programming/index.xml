@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Nianci</title>
-    <link>https://nianci-prog.github.io/post/</link>
-    <description>Recent content in Posts on Nianci</description>
+    <title>Programming on Nianci</title>
+    <link>https://nianci-prog.github.io/tags/programming/</link>
+    <description>Recent content in Programming on Nianci</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nianci-prog.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nianci-prog.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Java through HackerRank</title>
       <link>https://nianci-prog.github.io/post/learning-java-hackerrank/</link>
