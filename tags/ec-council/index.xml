@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EC-Council on Nianci</title>
+    <link>https://nianci-prog.github.io/tags/ec-council/</link>
+    <description>Recent content in EC-Council on Nianci</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nianci-prog.github.io/tags/ec-council/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EC-Council SQL Injection Learning Notes</title>
+      <link>https://nianci-prog.github.io/post/ec-council-sql-injection-notes/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://nianci-prog.github.io/post/ec-council-sql-injection-notes/</guid>
+      <description>&lt;h2 id=&#34;ec-council-overview&#34;&gt;EC-Council Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;EC-Council&lt;/strong&gt; (International Council of E-Commerce Consultants) is a globally recognized cybersecurity certification organization, offering professional certifications such as &lt;strong&gt;CEH (Certified Ethical Hacker)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This course deepened my understanding of web application security, SQL injection vulnerabilities, and practical penetration testing tools.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;learning-reflections&#34;&gt;Learning Reflections&lt;/h2&gt;&#xA;&lt;p&gt;This course helped me achieve my goal of gaining hands-on experience in cybersecurity.&lt;br&gt;&#xA;I practiced using tools like &lt;strong&gt;sqlmap&lt;/strong&gt; and &lt;strong&gt;jSQL&lt;/strong&gt;, which improved my confidence in identifying and testing vulnerabilities.&lt;br&gt;&#xA;The course structure, combined with practical examples, made it easier to apply knowledge in real-world scenarios.&lt;br&gt;&#xA;Overall, it brings me closer to becoming a cybersecurity professional.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
